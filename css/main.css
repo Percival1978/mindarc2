@@ -18,6 +18,7 @@
   height: 100%;
   color: #cccccc;
   text-align: center;
+  border: none;
 }
 .card .more {
   text-transform: uppercase;
