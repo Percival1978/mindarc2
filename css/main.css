@@ -1,0 +1,38 @@
+.jumbotron {
+  height: 50vh;
+  background-image: url("http://via.placeholder.com/1440x650");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: grid;
+}
+.jumbotron .container {
+  align-self: center;
+}
+.jumbotron .container h2 {
+  font-weight: 200;
+}
+.col-md-4 {
+  margin-bottom: 20px;
+}
+.col-md-4 .card {
+  padding: 1em;
+  height: 100%;
+  color: #cccccc;
+  text-align: center;
+}
+.col-md-4 .card button {
+  text-transform: uppercase;
+  width: fit-content;
+  align-self: center;
+  border: 2px solid #000;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+@media only screen and (max-width: 1023px) {
+  .jumbotron {
+    background-image: url("http://via.placeholder.com/600x600");
+  }
+}
