@@ -13,16 +13,13 @@
 .jumbotron .container h2 {
   font-weight: 200;
 }
-.col-md-4 {
-  margin-bottom: 20px;
-}
-.col-md-4 .card {
+.card {
   padding: 1em;
   height: 100%;
   color: #cccccc;
   text-align: center;
 }
-.col-md-4 .card button {
+.card .more {
   text-transform: uppercase;
   width: fit-content;
   align-self: center;
